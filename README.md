@@ -7,6 +7,10 @@ coffee-scriptのコンパイル、mochaによる自動テストが実行され�
 
 git-hubからダウンロード、もしくはcloneしてください。
 
+以下はcloneのサンプルです。１行です。myProjectの部分は新しいプロジェクト名です。
+```
+git clone https://github.com/mick-whats/boilerPlate-coffee-nodeModule.git myProject
+```
 ## init
 
 以下を変更して使ってください。
@@ -23,9 +27,15 @@ git-hubからダウンロード、もしくはcloneしてください。
 
 dependencies、devDependenciesは適当に。
 
-## 使い方
+gitリポジトリの削除、初期化、npmインストールを行います。
 
-最初だけ`npm install`を実行してください。
+```
+rm -rf .git
+.git init
+npm install
+```
+
+## 使い方
 
 `npm run watch`
 
