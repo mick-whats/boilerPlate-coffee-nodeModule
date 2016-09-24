@@ -1,6 +1,5 @@
 _ = require 'lodash'
 util = require('util')
-math = require 'mathjs'
 moment = require 'moment'
 module.exports =
   log: (obj)-> return console.log(util.inspect(obj,{ showHidden: true, depth: null }))
@@ -22,4 +21,3 @@ module.exports =
     callingLocation()
     Error.prepareStackTrace = backup
     return
-  

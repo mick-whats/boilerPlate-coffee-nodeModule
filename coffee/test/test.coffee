@@ -1,7 +1,6 @@
-
+xax = require '../'
 {assert} = require 'chai'
 _ = require 'lodash'
-# async = require 'async'
 # fs = require 'fs'
 # path = require 'path'
 
